@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "preLaunchTask": "CMake: 生成",
+            "cwd": "${workspaceFolder}",
+            "executable": "./build/${workspaceFolderBasename}.elf",
+            "name": "Debug with JLink",
+            "request": "launch",
+            "type": "cortex-debug",
+            "device": "STM32F103C8",
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "both",
+            "servertype": "jlink",
+            "showDevDebugTimestamps": true,
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            }
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "led_demo.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "--c99 --gnu --cpu=Cortex-M3 -g -O0 --apcs=interwork --split_sections -Otime -DNDEBUG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/wyx12/AppData/Local/Programs/MDK532/ARM/CMSIS/Include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "--cpu=Cortex-M3 -c -g --apcs=interwork"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/wyx12/AppData/Local/Programs/MDK532/ARM/CMSIS/Include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"id" : "led_demo::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "--c99 --gnu --cpu=Cortex-M3 -g -O0 --apcs=interwork --split_sections -Otime -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--ro-base=0x08000000",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--entry=Reset_Handler",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--rw-base=0x20000000",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--first=__Vectors",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--strict",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--summary_stderr",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--info=summarysizes",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--xref",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--callgraph",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--symbols",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "led_demo",
+	"nameOnDisk" : "led_demo.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "start.s",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
