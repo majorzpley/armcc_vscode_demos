@@ -5,3 +5,7 @@ These demos are based on bluepill(stm32f103c8t6_min_dev)
 ## 1、搭建环境
 - 1.1、构建工具**Cmake、Ninja**(**将以上均添加至环境变量path中**)，可以使用Chocolaty来安装或者github下载也行，armcc编译器，MDK官方编译器(**将armcc添加至环境变量path中**)
 - 1.2、vscode插件：**CMake Tools、Cortex-Debug**，可在.vscode文件夹中查看配置文件，我使用的是JLink来调试，所以需要安装JLink驱动(记得将JLink.exe添加至环境变量path中)。
+
+`这个示例是基于韦东山老师的《ARM架构与编程》的课程来的灵感，请支持正版。`[^1]
+
+[^1]: https://www.100ask.net/video
