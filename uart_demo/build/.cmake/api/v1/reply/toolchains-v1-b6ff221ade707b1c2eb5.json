@@ -1,0 +1,82 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "ARMCC",
+				"implicit" : {},
+				"path" : "C:/Users/wyx12/AppData/Local/Programs/MDK532/ARM/ARMCC/bin/armcc.exe",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"S",
+				"s",
+				"asm",
+				"msa"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "ARMCC",
+				"implicit" : 
+				{
+					"includeDirectories" : [],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/Users/wyx12/AppData/Local/Programs/MDK532/ARM/ARMCC/bin/armcc.exe",
+				"version" : "5.6.960"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "ARMCC",
+				"implicit" : 
+				{
+					"includeDirectories" : [],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/Users/wyx12/AppData/Local/Programs/MDK532/ARM/ARMCC/bin/armcc.exe",
+				"version" : "5.6.960"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

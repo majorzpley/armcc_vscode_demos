@@ -1,0 +1,10 @@
+# ninja log v6
+2	54	7605441182320535	CMakeFiles/uart_demo.dir/main.o	f9269ffd9f877058
+12	69	7605441182483866	CMakeFiles/uart_demo.dir/uart.o	3868485f2ed1342f
+7	84	7605441182320535	CMakeFiles/uart_demo.dir/start.o	865b2a241e0c91bf
+84	300	7605441183202863	uart_demo.elf	9a7c1ce421b0ebe0
+3	43	7605441215275901	clean	e8e407a994324ac6
+3	51	7605441224225173	CMakeFiles/uart_demo.dir/main.o	f9269ffd9f877058
+16	62	7605441224352435	CMakeFiles/uart_demo.dir/uart.o	3868485f2ed1342f
+7	85	7605441224265263	CMakeFiles/uart_demo.dir/start.o	865b2a241e0c91bf
+85	281	7605441225045719	uart_demo.elf	9a7c1ce421b0ebe0
