@@ -26,6 +26,7 @@ add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
 )
 ``` 
 经测试编译与调试均正常
+- 3.3 **uart_demo**串口一收发demo
 
 `这个示例是基于韦东山老师的《ARM架构与编程》的课程来的灵感，请支持正版。`[^1]
 
