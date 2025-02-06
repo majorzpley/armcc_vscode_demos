@@ -1,13 +1,4 @@
 # ninja log v6
-1	45	7594235032635909	CMakeFiles/led_demo.dir/main.o	33fd2d861f986f4d
-4	46	7594229070554650	CMakeFiles/led_demo.dir/start.o	db541f8527d8442f
-46	198	7594235033135891	led_demo.elf	e535093e6d4a88af
-2	49	7594239338907249	CMakeFiles/led_demo.dir/main.o	e907ee46ce414cb
-5	67	7594239338936009	CMakeFiles/led_demo.dir/start.o	802551c7cdcfd76a
-67	230	7594239339556916	led_demo.elf	8296f50bd001e0de
-1	44	7594240675228814	CMakeFiles/led_demo.dir/main.o	e907ee46ce414cb
-45	205	7594240675705509	led_demo.elf	8296f50bd001e0de
-2	43	7594247265302669	CMakeFiles/led_demo.dir/main.o	e907ee46ce414cb
-44	208	7594247265629838	led_demo.elf	8296f50bd001e0de
-1	53	7594247996201480	CMakeFiles/led_demo.dir/main.o	e907ee46ce414cb
-53	208	7594247996700760	led_demo.elf	8296f50bd001e0de
+3	48	7605207470417522	CMakeFiles/led_demo.dir/main.o	fe852cbe1cad6041
+7	69	7605207470447448	CMakeFiles/led_demo.dir/start.o	eed0c4bd6e1340cd
+69	274	7605207471074754	led_demo.elf	d80edcdefa323073

@@ -1,11 +1,12 @@
 //? 参考《2.0_STM32F103xx参考手册(英文原版)【重要】》中的page50、112、171
-void delay(int d)
-{
+//- 反汇编操作：
+//- fromelf --text -c xxx.elf > xxx.s
+int delay(volatile int d) {
   while (d--)
     ;
+  return 0x55;
 }
-int main(void)
-{
+int mymain(void) {
   unsigned int *pReg;
   unsigned int val;
   // 使能GPIOC
@@ -17,8 +18,7 @@ int main(void)
   pReg = (unsigned int *)(0x40011000 + 0x04); // GPIOC_CRH
   *pReg |= (1 << 20);
   pReg = (unsigned int *)(0x40011000 + 0x0C); // GPIOC_ODR
-  while (1)
-  {
+  while (1) {
     // 设置GPIOC13为高电平
     *pReg |= (1 << 13);
     // 延时

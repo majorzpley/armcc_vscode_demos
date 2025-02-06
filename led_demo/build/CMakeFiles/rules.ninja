@@ -7,14 +7,14 @@
 
 # =============================================================================
 # Project: led_demo
-# Configurations: Release
+# Configurations: Debug
 # =============================================================================
 # =============================================================================
 
 #############################################
 # Rule for compiling ASM files.
 
-rule ASM_COMPILER__led_demo_unscanned_Release
+rule ASM_COMPILER__led_demo_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\Users\wyx12\AppData\Local\Programs\MDK532\ARM\ARMCC\bin\armcc.exe $INCLUDES $FLAGS -o $out $in
@@ -24,7 +24,7 @@ rule ASM_COMPILER__led_demo_unscanned_Release
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__led_demo_unscanned_Release
+rule C_COMPILER__led_demo_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\Users\wyx12\AppData\Local\Programs\MDK532\ARM\ARMCC\bin\armcc.exe $DEFINES $INCLUDES $FLAGS --depend=$DEP_FILE --depend_single_line --no_depend_system_headers -o $out -c $in
@@ -34,7 +34,7 @@ rule C_COMPILER__led_demo_unscanned_Release
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__led_demo_Release
+rule C_EXECUTABLE_LINKER__led_demo_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\wyx12\AppData\Local\Programs\MDK532\ARM\ARMCC\bin\armlink.exe $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES $in -o $TARGET_FILE --list $TARGET_FILE.map && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\002LED_Coding\led_demo -BC:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\002LED_Coding\led_demo\build
+  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\004firstProgram\led_demo -BC:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\004firstProgram\led_demo\build
   description = Re-running CMake...
   generator = 1
 

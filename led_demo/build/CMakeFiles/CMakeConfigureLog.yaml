@@ -31,7 +31,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "__image.axf"
       
       The C compiler identification is ARMCC, found in:
-        C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/002LED_Coding/led_demo/build/CMakeFiles/3.31.4/CompilerIdC/CMakeCCompilerId.o
+        C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/004firstProgram/led_demo/build/CMakeFiles/3.31.4/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "message-v1"
@@ -55,7 +55,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "__image.axf"
       
       The CXX compiler identification is ARMCC, found in:
-        C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/002LED_Coding/led_demo/build/CMakeFiles/3.31.4/CompilerIdCXX/CMakeCXXCompilerId.o
+        C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/004firstProgram/led_demo/build/CMakeFiles/3.31.4/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "message-v1"
@@ -289,8 +289,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/002LED_Coding/led_demo/build/CMakeFiles/CMakeScratch/TryCompile-df70fs"
-      binary: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/002LED_Coding/led_demo/build/CMakeFiles/CMakeScratch/TryCompile-df70fs"
+      source: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/004firstProgram/led_demo/build/CMakeFiles/CMakeScratch/TryCompile-a41j3y"
+      binary: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/004firstProgram/led_demo/build/CMakeFiles/CMakeScratch/TryCompile-a41j3y"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -299,11 +299,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/002LED_Coding/led_demo/build/CMakeFiles/CMakeScratch/TryCompile-df70fs'
+        Change Dir: 'C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/004firstProgram/led_demo/build/CMakeFiles/CMakeScratch/TryCompile-a41j3y'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_3cbf3
-        [1/2] C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe    --depend=CMakeFiles\\cmTC_3cbf3.dir\\CMakeCCompilerABI.o.d --depend_single_line --no_depend_system_headers -o CMakeFiles\\cmTC_3cbf3.dir\\CMakeCCompilerABI.o -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armar.exe --create -cr libcmTC_3cbf3.a  CMakeFiles\\cmTC_3cbf3.dir\\CMakeCCompilerABI.o && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_e55af
+        [1/2] C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe    --depend=CMakeFiles\\cmTC_e55af.dir\\CMakeCCompilerABI.o.d --depend_single_line --no_depend_system_headers -o CMakeFiles\\cmTC_e55af.dir\\CMakeCCompilerABI.o -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armar.exe --create -cr libcmTC_e55af.a  CMakeFiles\\cmTC_e55af.dir\\CMakeCCompilerABI.o && cd ."
         
       exitCode: 0
   -
@@ -331,8 +331,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/002LED_Coding/led_demo/build/CMakeFiles/CMakeScratch/TryCompile-c19ybs"
-      binary: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/002LED_Coding/led_demo/build/CMakeFiles/CMakeScratch/TryCompile-c19ybs"
+      source: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/004firstProgram/led_demo/build/CMakeFiles/CMakeScratch/TryCompile-sdhtr7"
+      binary: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/004firstProgram/led_demo/build/CMakeFiles/CMakeScratch/TryCompile-sdhtr7"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -342,11 +342,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/002LED_Coding/led_demo/build/CMakeFiles/CMakeScratch/TryCompile-c19ybs'
+        Change Dir: 'C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/004firstProgram/led_demo/build/CMakeFiles/CMakeScratch/TryCompile-sdhtr7'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_1440e
-        [1/2] C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe    --depend=CMakeFiles\\cmTC_1440e.dir\\CMakeCXXCompilerABI.o.d --depend_single_line --no_depend_system_headers -o CMakeFiles\\cmTC_1440e.dir\\CMakeCXXCompilerABI.o -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armar.exe --create -cr libcmTC_1440e.a  CMakeFiles\\cmTC_1440e.dir\\CMakeCXXCompilerABI.o && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_7a24a
+        [1/2] C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe    --depend=CMakeFiles\\cmTC_7a24a.dir\\CMakeCXXCompilerABI.o.d --depend_single_line --no_depend_system_headers -o CMakeFiles\\cmTC_7a24a.dir\\CMakeCXXCompilerABI.o -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armar.exe --create -cr libcmTC_7a24a.a  CMakeFiles\\cmTC_7a24a.dir\\CMakeCXXCompilerABI.o && cd ."
         
       exitCode: 0
   -

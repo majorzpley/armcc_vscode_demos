@@ -1,0 +1,9 @@
+# ninja log v6
+2	51	7604540326208736	CMakeFiles/led_demo.dir/start.o	9f60e753117b6552
+1	42	7605157256192662	clean	e8e407a994324ac6
+1	84	7605157270738031	CMakeFiles/led_asm_demo.dir/start.o	f26b8d9dfb51564a
+1	52	7604708711762903	CMakeFiles/led_asm_demo.axf.dir/start.o	9625bef48b095b75
+84	269	7605157271600002	led_asm_demo.elf	5c5d5392cc6e46a1
+2	42	7605160314222233	clean	e8e407a994324ac6
+1	51	7605160320221050	CMakeFiles/led_asm_demo.dir/start.o	fa6a7562e549c52c
+52	221	7605160320701268	led_asm_demo.elf	5c5d5392cc6e46a1

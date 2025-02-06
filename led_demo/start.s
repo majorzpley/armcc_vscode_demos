@@ -14,10 +14,10 @@ __Vectors       DCD     0
 ; Reset handler
 Reset_Handler   PROC
 				EXPORT  Reset_Handler             [WEAK]
-                IMPORT  main
+                IMPORT  mymain
 
 				LDR SP, =(0x20000000+0x10000)
-				BL main
+				BL mymain
 
                 ENDP 
                 
