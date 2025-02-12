@@ -3,10 +3,12 @@
 //- fromelf --text -c xxx.elf > xxx.s
 //- 串口的发送与接收
 #include "uart.h"
+
 void delay(int d) {
   while (d--)
     ;
 }
+
 int main(void) {
   char c;
 

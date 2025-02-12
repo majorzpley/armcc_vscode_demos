@@ -219,7 +219,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build"
+			"value" : "c:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -627,7 +627,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo"
+			"value" : "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -925,10 +925,6 @@
 			"name" : "CMAKE_RANLIB",
 			"properties" : 
 			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
 				{
 					"name" : "HELPSTRING",
 					"value" : "noop for ranlib"
@@ -1195,11 +1191,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The CMake toolchain file"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/armcc-toolchain.cmake"
+			"type" : "UNINITIALIZED",
+			"value" : "armcc-toolchain.cmake"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1227,7 +1223,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build"
+			"value" : "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build"
 		},
 		{
 			"name" : "uart_demo_IS_TOP_LEVEL",
@@ -1251,7 +1247,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo"
+			"value" : "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo"
 		}
 	],
 	"kind" : "cache",

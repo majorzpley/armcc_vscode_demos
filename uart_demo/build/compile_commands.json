@@ -1,20 +1,20 @@
 [
 {
-  "directory": "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build",
-  "command": "C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe --c99 --gnu --cpu=Cortex-M3 -g -O0 --apcs=interwork --split_sections -g -o CMakeFiles\\uart_demo.dir\\main.o -c C:\\Users\\wyx12\\Documents\\SoftwareProjects\\MCU\\stm32f103c8t6_bluepill\\C_type\\004ARM\\006uartProgram\\uart_demo\\main.c",
-  "file": "C:\\Users\\wyx12\\Documents\\SoftwareProjects\\MCU\\stm32f103c8t6_bluepill\\C_type\\004ARM\\006uartProgram\\uart_demo\\main.c",
+  "directory": "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build",
+  "command": "C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe --c99 --gnu --cpu=Cortex-M3 -g -O0 --apcs=interwork --split_sections -g -o CMakeFiles\\uart_demo.dir\\main.o -c C:\\Users\\wyx12\\Documents\\SoftwareProjects\\MCU\\stm32f103c8t6_bluepill\\C_type\\004ARM\\armcc_vscode_demos\\uart_demo\\main.c",
+  "file": "C:\\Users\\wyx12\\Documents\\SoftwareProjects\\MCU\\stm32f103c8t6_bluepill\\C_type\\004ARM\\armcc_vscode_demos\\uart_demo\\main.c",
   "output": "CMakeFiles\\uart_demo.dir\\main.o"
 },
 {
-  "directory": "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build",
-  "command": "C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe --cpu=Cortex-M3 -g --apcs=interwork -c -o CMakeFiles\\uart_demo.dir\\start.o C:\\Users\\wyx12\\Documents\\SoftwareProjects\\MCU\\stm32f103c8t6_bluepill\\C_type\\004ARM\\006uartProgram\\uart_demo\\start.s",
-  "file": "C:\\Users\\wyx12\\Documents\\SoftwareProjects\\MCU\\stm32f103c8t6_bluepill\\C_type\\004ARM\\006uartProgram\\uart_demo\\start.s",
+  "directory": "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build",
+  "command": "C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe --cpu=Cortex-M3 -g --apcs=interwork -c -o CMakeFiles\\uart_demo.dir\\start.o C:\\Users\\wyx12\\Documents\\SoftwareProjects\\MCU\\stm32f103c8t6_bluepill\\C_type\\004ARM\\armcc_vscode_demos\\uart_demo\\start.s",
+  "file": "C:\\Users\\wyx12\\Documents\\SoftwareProjects\\MCU\\stm32f103c8t6_bluepill\\C_type\\004ARM\\armcc_vscode_demos\\uart_demo\\start.s",
   "output": "CMakeFiles\\uart_demo.dir\\start.o"
 },
 {
-  "directory": "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build",
-  "command": "C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe --c99 --gnu --cpu=Cortex-M3 -g -O0 --apcs=interwork --split_sections -g -o CMakeFiles\\uart_demo.dir\\uart.o -c C:\\Users\\wyx12\\Documents\\SoftwareProjects\\MCU\\stm32f103c8t6_bluepill\\C_type\\004ARM\\006uartProgram\\uart_demo\\uart.c",
-  "file": "C:\\Users\\wyx12\\Documents\\SoftwareProjects\\MCU\\stm32f103c8t6_bluepill\\C_type\\004ARM\\006uartProgram\\uart_demo\\uart.c",
+  "directory": "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build",
+  "command": "C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe --c99 --gnu --cpu=Cortex-M3 -g -O0 --apcs=interwork --split_sections -g -o CMakeFiles\\uart_demo.dir\\uart.o -c C:\\Users\\wyx12\\Documents\\SoftwareProjects\\MCU\\stm32f103c8t6_bluepill\\C_type\\004ARM\\armcc_vscode_demos\\uart_demo\\uart.c",
+  "file": "C:\\Users\\wyx12\\Documents\\SoftwareProjects\\MCU\\stm32f103c8t6_bluepill\\C_type\\004ARM\\armcc_vscode_demos\\uart_demo\\uart.c",
   "output": "CMakeFiles\\uart_demo.dir\\uart.o"
 }
 ]

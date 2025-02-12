@@ -31,7 +31,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "__image.axf"
       
       The C compiler identification is ARMCC, found in:
-        C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build/CMakeFiles/3.31.4/CompilerIdC/CMakeCCompilerId.o
+        C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build/CMakeFiles/3.31.4/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "message-v1"
@@ -55,7 +55,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "__image.axf"
       
       The CXX compiler identification is ARMCC, found in:
-        C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build/CMakeFiles/3.31.4/CompilerIdCXX/CMakeCXXCompilerId.o
+        C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build/CMakeFiles/3.31.4/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "message-v1"
@@ -289,8 +289,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build/CMakeFiles/CMakeScratch/TryCompile-kvkinw"
-      binary: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build/CMakeFiles/CMakeScratch/TryCompile-kvkinw"
+      source: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build/CMakeFiles/CMakeScratch/TryCompile-27hw85"
+      binary: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build/CMakeFiles/CMakeScratch/TryCompile-27hw85"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -299,11 +299,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build/CMakeFiles/CMakeScratch/TryCompile-kvkinw'
+        Change Dir: 'C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build/CMakeFiles/CMakeScratch/TryCompile-27hw85'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_03400
-        [1/2] C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe    --depend=CMakeFiles\\cmTC_03400.dir\\CMakeCCompilerABI.o.d --depend_single_line --no_depend_system_headers -o CMakeFiles\\cmTC_03400.dir\\CMakeCCompilerABI.o -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armar.exe --create -cr libcmTC_03400.a  CMakeFiles\\cmTC_03400.dir\\CMakeCCompilerABI.o && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_df172
+        [1/2] C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe    --depend=CMakeFiles\\cmTC_df172.dir\\CMakeCCompilerABI.o.d --depend_single_line --no_depend_system_headers -o CMakeFiles\\cmTC_df172.dir\\CMakeCCompilerABI.o -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armar.exe --create -cr libcmTC_df172.a  CMakeFiles\\cmTC_df172.dir\\CMakeCCompilerABI.o && cd ."
         
       exitCode: 0
   -
@@ -331,8 +331,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build/CMakeFiles/CMakeScratch/TryCompile-u74om6"
-      binary: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build/CMakeFiles/CMakeScratch/TryCompile-u74om6"
+      source: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build/CMakeFiles/CMakeScratch/TryCompile-ebnk2w"
+      binary: "C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build/CMakeFiles/CMakeScratch/TryCompile-ebnk2w"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -342,11 +342,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build/CMakeFiles/CMakeScratch/TryCompile-u74om6'
+        Change Dir: 'C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build/CMakeFiles/CMakeScratch/TryCompile-ebnk2w'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_e322e
-        [1/2] C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe    --depend=CMakeFiles\\cmTC_e322e.dir\\CMakeCXXCompilerABI.o.d --depend_single_line --no_depend_system_headers -o CMakeFiles\\cmTC_e322e.dir\\CMakeCXXCompilerABI.o -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armar.exe --create -cr libcmTC_e322e.a  CMakeFiles\\cmTC_e322e.dir\\CMakeCXXCompilerABI.o && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_449e9
+        [1/2] C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armcc.exe    --depend=CMakeFiles\\cmTC_449e9.dir\\CMakeCXXCompilerABI.o.d --depend_single_line --no_depend_system_headers -o CMakeFiles\\cmTC_449e9.dir\\CMakeCXXCompilerABI.o -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\AppData\\Local\\Programs\\MDK532\\ARM\\ARMCC\\bin\\armar.exe --create -cr libcmTC_449e9.a  CMakeFiles\\cmTC_449e9.dir\\CMakeCXXCompilerABI.o && cd ."
         
       exitCode: 0
   -

@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\006uartProgram\uart_demo -BC:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\006uartProgram\uart_demo\build
+  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\armcc_vscode_demos\uart_demo -BC:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\armcc_vscode_demos\uart_demo\build
   description = Re-running CMake...
   generator = 1
 

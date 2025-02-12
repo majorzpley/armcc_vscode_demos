@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "cwd": "${workspaceFolder}",
+            "executable": "./build/app.axf",
+            "name": "Debug with JLink",
+            "request": "launch",
+            "type": "cortex-debug",
+            "device": "STM32F103C8",
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "raw",
+            "servertype": "jlink",
+            "showDevDebugTimestamps": true,
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            }
+        }
+    ]
+}

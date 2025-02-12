@@ -167,9 +167,9 @@ Image Symbol Table
     ../clib/signal.s                         0x00000000   Number         0  defsig.o ABSOLUTE
     ../clib/stdlib.c                         0x00000000   Number         0  exit.o ABSOLUTE
     ../fplib/fpinit.s                        0x00000000   Number         0  fpinit.o ABSOLUTE
-    C:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\006uartProgram\uart_demo\main.c 0x00000000   Number         0  main.o ABSOLUTE
-    C:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\006uartProgram\uart_demo\start.s 0x00000000   Number         0  start.o ABSOLUTE
-    C:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\006uartProgram\uart_demo\uart.c 0x00000000   Number         0  uart.o ABSOLUTE
+    C:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\armcc_vscode_demos\uart_demo\main.c 0x00000000   Number         0  main.o ABSOLUTE
+    C:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\armcc_vscode_demos\uart_demo\start.s 0x00000000   Number         0  start.o ABSOLUTE
+    C:\Users\wyx12\Documents\SoftwareProjects\MCU\stm32f103c8t6_bluepill\C_type\004ARM\armcc_vscode_demos\uart_demo\uart.c 0x00000000   Number         0  uart.o ABSOLUTE
     dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
     RESET                                    0x08000000   Section        8  start.o(RESET)
     !!!main                                  0x08000008   Section        8  __main.o(!!!main)

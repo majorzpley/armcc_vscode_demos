@@ -3,7 +3,7 @@
 
 ** ELF Header Information
 
-    File Name: C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/006uartProgram/uart_demo/build/uart_demo.elf
+    File Name: C:/Users/wyx12/Documents/SoftwareProjects/MCU/stm32f103c8t6_bluepill/C_type/004ARM/armcc_vscode_demos/uart_demo/build/uart_demo.elf
 
     Machine class: ELFCLASS32 (32-bit)
     Data encoding: ELFDATA2LSB (Little endian)
@@ -32,8 +32,8 @@
     Program header entries: 1
     Section header entries: 15
 
-    Program header offset: 14708 (0x00003974)
-    Section header offset: 14740 (0x00003994)
+    Program header offset: 14776 (0x000039b8)
+    Section header offset: 14808 (0x000039d8)
 
     Section header string table index: 14
 
@@ -400,11 +400,11 @@
 
 
 ** Section #5 '.debug_info' (SHT_PROGBITS)
-    Size   : 2024 bytes
+    Size   : 2052 bytes
 
 
 ** Section #6 '.debug_line' (SHT_PROGBITS)
-    Size   : 1248 bytes
+    Size   : 1276 bytes
 
 
 ** Section #7 '.debug_loc' (SHT_PROGBITS)
@@ -426,7 +426,7 @@
 
 
 ** Section #11 '.strtab' (SHT_STRTAB)
-    Size   : 3708 bytes
+    Size   : 3720 bytes
 
 
 ** Section #12 '.note' (SHT_NOTE)
